@@ -2,7 +2,7 @@
 export default{
   data() {
     return {
-      
+      links:["Home","Pages","Courses","Feautures","Blog","Shop"]
     }
   },
 }
@@ -15,7 +15,15 @@ export default{
 <template>
   <header>
     <nav>
-
+      <div>
+        <ul>
+          <li>
+            <a href="#">
+              link 	&#8964;
+            </a>
+          </li>
+        </ul>
+      </div>
     </nav>
     <div id="jumbo">
       <div id="titolo">
@@ -28,7 +36,7 @@ export default{
           Distant Mentoring Program
         </h1>
         <button class="btn" id="download">
-          Download Guidebook &RightArrow;
+          Download free guidebook &RightArrow;
         </button>
       </div>
       <img src="../assets/immagini/home-3-hero-bg.jpg" alt="">
@@ -65,6 +73,13 @@ export default{
     background-color: #ffffff;
     color: #20ad96;
     margin: 10px;
+  }
+  a{
+    text-decoration: none;
+    color: #3f3a64;
+  }
+  ul{
+    display: flex;
   }
   
 </style>
