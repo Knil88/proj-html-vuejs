@@ -14,7 +14,7 @@
                 <h5>
                     EVERYTHING IN <span> MAXCOACH</span>
                 </h5>
-                <h1>
+                <h1 class="titolo">
                     Learn About our <span>Work Culture</span> at Max Coach
                 </h1>
                 <p>
@@ -42,6 +42,9 @@
                    </div>
                    <div class="img-container">
                     <img id="svg-position-2" src="../assets/immagini/maxcoach-shape-02.png" alt="" >
+                   </div>
+                   <div class="img-container">
+                    <img id="svg-position-3" src="../assets/immagini/maxcoach-shape-08.png" alt="" >
                    </div>
                    
                 </div>
@@ -102,6 +105,13 @@
                 width: 17%;
                 left: 73%;
               }
+              #svg-position-3 {
+                position: absolute;
+                z-index: 100;
+                
+                top: 43%;
+                width: 30%;
+              }
               .info-title{
                 width: 70%;
                 margin: auto;
@@ -117,7 +127,7 @@
                 }
                 
               }
-              h1{
+              .titolo{
                 font-size: 40px;
                 margin: 10px 0px;
                 color: #333333;
@@ -130,5 +140,9 @@
             #domande{
                 color: #31ad96;
                 font-size: 13px;
+                a{
+                    text-decoration: underline;
+                    color: #3eaf96;
+                }
             }
 </style>
