@@ -15,12 +15,12 @@
                     EVERYTHING IN <span> MAXCOACH</span>
                 </h5>
                 <h1>
-                    Learn About our Work Culture at Max Coach
+                    Learn About our <span>Work Culture</span> at Max Coach
                 </h1>
                 <p>
                     Spend some time to visit our website or head office and discover our current courses .enrollment procedure, and registration deadline. we're opening new classes every begginning of each month.
                 </p>
-                <div id="question">
+                <div id="domande">
                     Have questions? <a href="#">
                         <strong>
                             Get Free Guide &RightArrow;
@@ -59,7 +59,7 @@
         margin: 100px auto;
         height: 450px;
         .right-container{
-            border: 1px solid black;
+          
             margin:0px 10px ;
             width: 45%;
            
@@ -105,6 +105,10 @@
               .info-title{
                 width: 70%;
                 margin: auto;
+                p{
+                    color: #31ad96;
+                    font-size: 13px;
+                }
                 h5{
                     color: #bbc0c4;
                     span{
@@ -116,5 +120,15 @@
               h1{
                 font-size: 40px;
                 margin: 10px 0px;
+                color: #333333;
+                span{
+                    color: #21ad96;
+                    font-weight: lighter;
+                }
+               
+            }
+            #domande{
+                color: #31ad96;
+                font-size: 13px;
             }
 </style>
