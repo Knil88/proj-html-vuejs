@@ -49,7 +49,23 @@
                    
                 </div>
             </div>
-        </section>
+      </section>
+      <section>
+        <div class="row">
+            <div class="card">
+             <h1>129</h1>
+             <div>ENROLLED LEARNERS</div>
+            </div>
+            <div class="card">
+                <h1>80</h1>
+                <div>FINISHED SESSIONS</div>
+               </div>
+               <div class="card">
+                <h1>4%</h1>
+                <div>SATISFACTION RATE </div>
+               </div>
+         </div>
+      </section>
     </main>
 </template>
 
@@ -59,8 +75,10 @@
     .wrapper{
         display: flex;
         width: 80%;
-        margin: 100px auto;
-        height: 450px;
+        margin: auto;
+      
+       
+       
         .right-container{
           
             margin:0px 10px ;
@@ -101,16 +119,18 @@
             #svg-position-2 {
                 position: absolute;
                 z-index: 1;
-                top: 63%;
+                top: 97%;
                 width: 17%;
                 left: 73%;
               }
               #svg-position-3 {
                 position: absolute;
-                z-index: 100;
-                
-                top: 43%;
+                top: 67%;
                 width: 30%;
+               
+               
+                
+                
               }
               .info-title{
                 width: 70%;
@@ -143,6 +163,24 @@
                 a{
                     text-decoration: underline;
                     color: #3eaf96;
+                }
+            }
+            .row{
+                display: flex;
+                justify-content: space-between;
+                color: #3eaf96;
+                text-align: center;
+                width: 50%;
+                margin: auto;
+                margin-bottom: 30px;
+            }
+            .card{
+                margin: 0px 10px;
+                h1{
+                    font-size: 45px;
+                }
+                div{
+                    color: #696969;
                 }
             }
 </style>
