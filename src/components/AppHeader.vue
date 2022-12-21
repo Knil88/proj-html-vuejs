@@ -22,7 +22,35 @@ export default{
               link 	&#8964;
             </a>
           </li>
+          <li>
+            <a href="#">
+              link 	&#8964;
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              link 	&#8964;
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              link 	&#8964;
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              link 	&#8964;
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              link 	&#8964;
+            </a>
+          </li>
         </ul>
+      </div>
+      <div id="logo">
+        <img src="../assets/immagini/dark-logo.png" alt="">
       </div>
     </nav>
     <div id="jumbo">
@@ -81,5 +109,9 @@ export default{
   ul{
     display: flex;
   }
-  
+  #logo{
+    img{
+      max-width: 45%;
+    }
+  }
 </style>
