@@ -105,13 +105,14 @@ export default{
   a{
     text-decoration: none;
     color: #3f3a64;
+    margin: 0px 20px;
   }
   ul{
     display: flex;
   }
   #logo{
     img{
-      max-width: 45%;
+      max-width: 50%;
     }
   }
 </style>
