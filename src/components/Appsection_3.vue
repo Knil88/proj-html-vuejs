@@ -27,18 +27,19 @@
             </div>
            <div class="info-title">
             <h5>
-                EVERYTHING IN <span> MAXCOACH</span>
+                HOW WE WORK
             </h5>
             <h1 class="titolo">
-                Learn About our <span>Work Culture</span> at Max Coach
+                Upgrade Your Skills <span>Upgrade Your Life</span> at Max Coach
             </h1>
             <p>
-                Spend some time to visit our website or head office and discover our current courses .enrollment procedure, and registration deadline. we're opening new classes every begginning of each month.
+                Opening up more opportunities in front of you to get the ticket to more enjoyable door in life.Getting equipped with new skills for new sets of insights into your career. <br>
+                MaxCoach accompany learners in every stage of learning.
             </p>
-            <div id="domande">
-                Have questions? <a href="#">
+            <div>
+                 <a href="#" id="link">
                     <strong>
-                        Get Free Guide &RightArrow;
+                        Download Free Guide &RightArrow;
                     </strong>
                 </a>
             </div>
@@ -57,5 +58,7 @@
     transform: translate(-50%, -50%);
     cursor: pointer;
 }
-  
+  #link{
+    color: black;
+  }
 </style>
