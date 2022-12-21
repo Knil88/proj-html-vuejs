@@ -22,7 +22,10 @@ header{
     margin-bottom: 150px;
 }
 section{
-    margin: 100px 0px;
+    margin: 100px auto;
+}
+main{
+    position: relative;
 }
 nav{
     width: 90%;
@@ -41,4 +44,58 @@ nav{
   font-size: 16px;
   cursor: pointer;
 }
+.wrapper{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    .circle{
+        border: #ebc4ab 8px solid;
+        width: 55px;
+        height: 55px ;
+        background-color: white;
+        border-radius: 50%;
+        position: absolute;
+        
+      }
+      .p-circle{
+        left: 40%;
+        bottom: 95%;
+      }
+      .text-container{
+          
+        margin:0px 10px ;
+        width: 45%;
+       
+    }
+     .poster-container{
+          
+            width: 45%;
+            margin:0px 10px ;
+            position: relative;
+            
+            #svg-position{
+                position: absolute;
+                left: 74%;
+                bottom: 89%;
+                 width: 24%;
+              }
+            }
+            .img-container{
+                img{
+                    max-width: 100%;
+                    border-radius: 5px;
+                }
+            }
+            
+    }
+    .titolo{
+        font-size: 40px;
+        margin: 10px 0px;
+        color: #333333;
+    
+        span{
+            color: #21ad96;
+            font-weight: lighter;
+        }
 
+    }
