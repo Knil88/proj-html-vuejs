@@ -24,7 +24,7 @@
                     Spend some time to visit our website or head office and discover our current courses .enrollment procedure, and registration deadline. we're opening new classes every begginning of each month.
                 </p>
                 <div id="domande">
-                    Have questions? <a href="#">
+                    Have questions? <a href="#" id="link-domande">
                         <strong>
                             Get Free Guide &RightArrow;
                         </strong>
@@ -118,7 +118,7 @@
                 color: #31ad96;
                 font-size: 13px;
             
-                a{
+                #link-domande{
                     text-decoration: underline;
                     color: #3eaf96;
                 }
