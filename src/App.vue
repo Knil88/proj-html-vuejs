@@ -3,6 +3,7 @@ import AppHeader from './components/AppHeader.vue';
 import AppSection from './components/AppSection.vue';
 import AppSection_2 from './components/AppSection_2.vue';
 import AppSection_3 from './components/AppSection_3.vue';
+import AppSection_4 from './components/AppSection_4.vue';
 import AppFooter from './components/AppFooter.vue';
 
 export default{
@@ -11,6 +12,7 @@ export default{
   AppSection,
   AppSection_2,
   AppSection_3,
+  AppSection_4,
   AppFooter
  
   }
@@ -25,6 +27,7 @@ export default{
     <AppSection/>
     <AppSection_2/>
     <AppSection_3/>
+    <AppSection_4/>
   </main>
   
   <AppFooter/>
