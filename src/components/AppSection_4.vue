@@ -78,9 +78,19 @@
                     </div>
                    </div>
                 </div>
+               
             </div>
       
-
+           
+        </div>
+        <div class="icon-row  info-offer position-3">
+            <font-awesome-icon class="i m-2" id="big" icon="fa-solid fa-circle" />
+            <font-awesome-icon class="i m-2" icon="fa-solid fa-circle" />
+            <font-awesome-icon class="i m-2" icon="fa-solid fa-circle" />
+            <font-awesome-icon class="i m-2" icon="fa-solid fa-circle" />
+            <font-awesome-icon class="i m-2" icon="fa-solid fa-circle" />
+           
+            
         </div>
        </div>
  </section>
@@ -129,5 +139,21 @@
     }
     #course-description{
         color:#323232;
+    }
+    .position-3{
+        position: absolute;
+
+        left:43%;
+       
+
+    }
+    .m-2{
+        margin: 0px 10px;
+        color: #d8d8d8;
+        align-self: center;
+    }
+    #big{
+        font-size: 15px;
+        color: black;
     }
 </style>
