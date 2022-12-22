@@ -38,6 +38,9 @@
                 </div>
             </div>
             <div class="course-card course-container">
+                <div id="free">
+                    FREE
+                </div>
                 <img src="../assets/immagini/stock-full-hd-03-480x298.jpg" alt="">
                 <div class="info-offer " id="start">
                    <h3  class="info-offer">
@@ -112,7 +115,7 @@
     @use"./styles/partial/variables.scss" as*;
     .course-row{
         display: flex;
-        width: 80%;
+        width: 85%;
         margin: auto;
        
         
@@ -131,7 +134,12 @@
             span{
                 font-size: 12px;
             }
+           
         }
+    }
+    .course-card:hover{
+        cursor: pointer;
+        color:#21ad96 ;
     }
     .icon-row{
         display: flex;
@@ -140,6 +148,10 @@
     }
     .description{
         margin: 0px 10px;
+        &:hover{
+            color:#21ad96 ;
+            cursor: pointer;
+        }
     }
     .course-container{
         margin: 30px;
@@ -163,6 +175,15 @@
         color: #d8d8d8;
         align-self: center;
     }
+    #free {
+        background-color: #ee7455;
+        color: #ffffff;
+        position: absolute;
+        width: 5%;
+        left: 54%;
+        padding-left: 1%;
+        clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
+      }
     #big{
         font-size: 15px;
         color: black;

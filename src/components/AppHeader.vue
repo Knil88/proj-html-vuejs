@@ -2,7 +2,12 @@
 export default{
   data() {
     return {
-      links:["Home","Pages","Courses","Feautures","Blog","Shop"],
+      links:["Home",
+      "Pages",
+      "Courses",
+      "Feautures",
+      "Blog",
+      "Shop"],
     
     }
   },
@@ -20,7 +25,7 @@ export default{
        <ul id="ul">
         <li v-for="link in links">
           <a href="#">
-           {{ link}}&#8964;
+           {{ link}} <span id="arrow">&#8964;</span>
           </a>
         </li>
        </ul>
@@ -45,7 +50,7 @@ export default{
         <h1>
           Distant Mentoring Program
         </h1>
-        <button class="btn" id="download">
+        <button class="btn " id="download">
           Download free guidebook &RightArrow;
         </button>
        
@@ -106,6 +111,11 @@ export default{
     background-color: #ffffff;
     color: #20ad96;
     margin: 10px;
+    transition: ease-in-out 0.5s;
+    &:hover{
+      background-color: #20ad96;
+      color: #ffffff;
+    }
   }
   a{
     text-decoration: none;
@@ -115,6 +125,12 @@ export default{
   }
   #ul{
     display: flex;
+  }
+  #arrow {
+    position: absolute;
+    bottom: 95%;
+    margin-left: 2px;
+    font-size: 14px;
   }
   #logo{
     text-align: center;

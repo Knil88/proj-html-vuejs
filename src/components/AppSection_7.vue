@@ -84,7 +84,9 @@
             </div>
          
             <div class=" center">
-                
+                <div class="circle p-circle">
+
+                </div>
                   <h1 class="titolo">
                      Subscribe   <span>NewsLetters</span> 
                   </h1>
@@ -93,6 +95,7 @@
                   delivered on a regular basis!
                   </h5>
                  <div class="subscribe">
+                    
                     <input id="email-input" type="email" placeholder="Enter your email">
                     <button class="btn emailBtn">
                      <strong> Subscribe</strong>
