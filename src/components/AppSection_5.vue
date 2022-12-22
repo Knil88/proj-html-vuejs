@@ -136,17 +136,17 @@
       .p-recensioni-1,.p-recensioni-2,.p-recensioni-3{
         position: absolute;
       }
-      .p-recensioni-3{
+      .p-recensioni-3 {
         opacity: 0.5;
-        clip-path: inset(66% -99px 1px -67px);
+        clip-path: inset(71.76% -99px -45px -67px);
         width: 68%;
-        top: 16%;
+        top: -2%;
         left: 19%;
         img{
-            width: 70px;
+            width: 60px;
         }
-
       }
+      
       .p-recensioni-2{
         bottom: 22%;
         width: 68%;

@@ -2,7 +2,8 @@
 export default{
   data() {
     return {
-      links:["Home","Pages","Courses","Feautures","Blog","Shop"]
+      links:["Home","Pages","Courses","Feautures","Blog","Shop"],
+    
     }
   },
 }

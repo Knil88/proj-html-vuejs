@@ -2,7 +2,127 @@
 export default{
     data() {
         return {
-            
+            imgSocial: [
+                {
+                    img: 'img/footer-facebook.png',
+                    link: '#'
+                }, {
+                    img: 'img/footer-twitter.png',
+                    link: '#'
+                }, {
+                    img: "img/footer-youtube.png",
+                    link: '#'
+                }, {
+                    img: "img/footer-pinterest.png",
+                    link: '#'
+                }, {
+                    img: "img/footer-periscope.png",
+                    link: '#'
+                }],
+            footerElement: [
+                {
+                    title: 'Address',
+                    listLink: [
+                        {
+                            text: '382 NE 191st # 87394 Miami,FL 33179-3899',
+                            url: '#',
+                            
+                        },
+                        {
+                            text: '+1(305)547-9909(9am-5pmEST,Monday_Friday)',
+                            url: '#',
+                            
+                        },
+                        {
+                            text: 'support@maxcoach.com',
+                            url: '#',
+                            
+                        },
+                       
+                       
+                    ]
+                },
+                
+            ],
+            footerElement2: [
+                {
+                    title: 'Explore',
+                    listLink: [
+                        {
+                            text: 'Start here',
+                            url: '#',
+                            
+                        },
+                        {
+                            text: 'Blog',
+                            url: '#',
+                            
+                        },
+                        {
+                            text: 'About us',
+                            url: '#',
+                            
+                        },
+                       
+                       
+                    ]
+                },
+                {
+                    title: '',
+                    listLink: [
+                        {
+                            text: '',
+                            url: '',
+                            
+                        },
+                        {
+                            text: 'Success story',
+                            url: '#',
+                            
+                        },
+                        {
+                            text: 'Courses',
+                            url: '#',
+                            
+                        },
+                        {
+                            text: 'Contact us',
+                            url: '#',
+                            
+                        },
+                       
+                       
+                    ]
+                },
+                {
+                    title: 'Information',
+                    listLink: [
+                        {
+                            text: 'Memebership',
+                            url: '#',
+                            
+                        },
+                        {
+                            text: 'Purchase guide',
+                            url: '#',
+                            
+                        },
+                        {
+                            text: 'Privacy policy',
+                            url: '#',
+                            
+                        },
+                        {
+                            text: 'Terms of Service',
+                            url: '#',
+                            
+                        },
+                       
+                       
+                    ]
+                },
+                
+            ],
         }
     },
 }
@@ -16,25 +136,40 @@ export default{
     <footer>
         <div class="flex-footer">
           <div>
-            <ul>
-                <li>
-                    <h4>Address</h4>
+            <ul v-for= "(element, index) in footerElement">
+                <li class="titolo-li">
+                  {{element.title}}
                 </li>
-                <li>
-                    link
-                </li>
-                <li>
-                    link
-                </li>
-                <li>
-                    link
-                </li>
-                <li>
-                    link
-                </li>
-            </ul>
+                <li v-for="link in element.listLink" class="">
+                  <a :href="link.url">
+                      {{ link.text }}
+                  </a>
+              </li>
+              </ul>
           </div>
+        
+        <div class="flex">
+
+            <ul v-for= "(element, index) in footerElement2">
+                <li class="titolo-li">
+                  {{element.title}}
+                </li>
+                <li v-for="link in element.listLink" class="li-p">
+                  <a :href="link.url">
+                      {{ link.text }}
+                  </a>
+              </li>
+              </ul>
         </div>
+        </div>
+        <div id="icon-container">
+                <a  v-for="img in imgSocial"  :href="img.link">
+                <img :src="img.img" alt="">
+            </a>
+          </div>
+          <div id="footer-copyright" >
+            &#169; MaxCoach.All Rights Reserved
+          </div>
     </footer>
 </template>
 
@@ -48,11 +183,35 @@ export default{
     }
     .flex-footer{
         display: flex;
+        justify-content: space-around;
         width: 80%;
         margin: auto;
-        padding: 20px 0px;
+        padding-top: 20px;
+        padding-bottom: 5px;
         h4{
             color: #fff;
+            
+        }
+        .flex{
+            display: flex;
+        }
+        a{
+            color: #ababab;
+        }
+        .titolo-li{
+            color:#ffffff;
+            margin-left: 15px;
         }
     }
+    #icon-container{
+        
+            margin: 0px 14%;
+            img{
+                width:3%
+            }
+    }
+    #footer-copyright{
+        text-align: center;
+    }
+    
 </style>
