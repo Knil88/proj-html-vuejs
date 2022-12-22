@@ -30,7 +30,7 @@ export default{
       <div id="nav-right">
         <font-awesome-icon icon="fa-solid fa-cart-shopping" id="icona"/><span id="numero">0</span>
         <font-awesome-icon icon="fa-solid fa-user"/>
-        <input type="text" placeholder="Search..">
+        <input id="input" type="text" placeholder="Search..">
         <font-awesome-icon icon="fa-solid fa-magnifying-glass" id="searchLens"/>
       </div>
     </nav>
@@ -152,7 +152,7 @@ export default{
     top: 6px;
     right: 4px;
   }
-  input{
+  #input{
     margin-left: 16px;
     padding: 5px;
     border: none;

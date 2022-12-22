@@ -92,10 +92,12 @@
                   Enter your email address to register to our newsletter subscription <br>
                   delivered on a regular basis!
                   </h5>
-                  <input id="email-input" type="email" placeholder="Enter your email">
-                  <button class="btn emailBtn">
-                    Subscribe
-                  </button>
+                 <div class="subscribe">
+                    <input id="email-input" type="email" placeholder="Enter your email">
+                    <button class="btn emailBtn">
+                     <strong> Subscribe</strong>
+                    </button>
+                 </div>
             </div>
                 
            </div>
@@ -110,9 +112,16 @@
         color: white;
         background-color:#b1b1b0 ;
     }
-    .email_input{
-        padding: 11px;
+    #email-input{
+      
+        padding: 15px;
+        border: none;
+        border-radius: 5px;
+        background-color: #f5f5f5;
+        outline: none;
+        width: 35%;
+    }
+    .subscribe{
         margin: 10px auto;
-        width: 34%;
     }
 </style>
