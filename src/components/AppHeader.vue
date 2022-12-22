@@ -2,6 +2,7 @@
 export default{
   data() {
     return {
+      //Creiamo il nostro array con i link da mettere in maniera dinamica
       links:["Home",
       "Pages",
       "Courses",
@@ -23,6 +24,7 @@ export default{
     <nav>
       <div>
        <ul id="ul">
+        <!-- mettiamo il nostro array in un ciclo v-for  -->
         <li v-for="link in links">
           <a href="#">
            {{ link}} <span id="arrow">&#8964;</span>
