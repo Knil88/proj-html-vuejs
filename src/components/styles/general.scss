@@ -50,21 +50,22 @@ nav{
     margin: auto;
     .circle{
         border: #ebc4ab 8px solid;
-        width: 55px;
-        height: 55px ;
+        width: 50px;
+        height: 50px ;
         background-color: white;
         border-radius: 50%;
         position: absolute;
         
       }
       .p-circle{
-        left: 40%;
+        left: 85%;
         bottom: 95%;
       }
       .text-container{
-          
+        position: relative;
         margin:0px 10px ;
         width: 45%;
+        
        
     }
      .poster-container{

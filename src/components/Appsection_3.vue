@@ -103,9 +103,7 @@
     position: absolute;
     
   }
-  .circle-container{
-
-  }
+ 
   .position{
     right: 91%;
     bottom: 93%;
