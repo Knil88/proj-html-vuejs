@@ -154,7 +154,5 @@
         clip-path: inset(-13px -28px 59% -33px);
         opacity: 0.5;
       }
-      #big-margin{
-        padding-top:150px ;
-      }
+     
 </style>

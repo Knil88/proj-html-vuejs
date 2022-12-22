@@ -6,14 +6,20 @@
     box-sizing: border-box;
 }
 
+.big-container{
+    background-color: #f6f6f6;
+   width: 100%;
+  }
+
 .white{
     background-color: #ffff;
-    padding-top: 20px;
+   padding: 150px 0px;
 }
 
 body{
     font-family: alata;
-    background-color: #f6f6f6;
+    
+   
 
 }
 
@@ -30,10 +36,13 @@ header{
 }
 section{
     padding: 40px 0px;
+    width: 80%;
+    margin: auto;
    
 }
 main{
     position: relative;
+    width: 100%;
 }
 nav{
     width: 90%;
@@ -56,6 +65,7 @@ nav{
     display: flex;
     width: 80%;
     margin: auto;
+
     .circle{
         border: #ebc4ab 8px solid;
         width: 50px;

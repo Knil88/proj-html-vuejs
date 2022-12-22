@@ -8,6 +8,9 @@
 
 <template>
 
+    <div class="big-container">
+
+    </div>
         <section class="wrapper">
             <div class="text-container">
                 <div class="circle p-circle">

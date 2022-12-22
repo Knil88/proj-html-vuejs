@@ -7,6 +7,9 @@
 </script>
 
 <template>
+    <div class="big.container">
+        
+    </div>
     <section>
         <div class="row">
             <div class="card">
