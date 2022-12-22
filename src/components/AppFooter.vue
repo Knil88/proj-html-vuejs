@@ -167,9 +167,15 @@ export default{
                 <img :src="img.img" alt="">
             </a>
           </div>
+          <div id="upArrow">
+            <a href="#">
+                &UpArrow;
+            </a>
+          </div>
           <div id="footer-copyright" >
             &#169; MaxCoach.All Rights Reserved
           </div>
+         
     </footer>
 </template>
 
@@ -179,6 +185,7 @@ export default{
     footer{
         background-color: #171621;
         color: #aba290;
+        position: relative;
         
     }
     .flex-footer{
@@ -212,6 +219,19 @@ export default{
     }
     #footer-copyright{
         text-align: center;
+    }
+
+    #upArrow{
+        background-color: #20ad96;
+        
+        padding: 5px 0px;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 3%;
+        left: 96%;
+        a{
+            color: white;
+        }
     }
     
 </style>

@@ -84,7 +84,7 @@
             </div>
          
             <div class=" center">
-                <div class="circle p-circle">
+                <div class="circle-5 ">
 
                 </div>
                   <h1 class="titolo">
@@ -94,6 +94,9 @@
                   Enter your email address to register to our newsletter subscription <br>
                   delivered on a regular basis!
                   </h5>
+                  <div class="img-container shape-4">
+                    <img src="../assets/immagini/maxcoach-shape-02.png" alt="">
+                  </div>
                  <div class="subscribe">
                     
                     <input id="email-input" type="email" placeholder="Enter your email">
@@ -126,5 +129,18 @@
     }
     .subscribe{
         margin: 10px auto;
+    }
+    .circle-5{
+        border: #ebc4ab 8px solid;
+        width: 50px;
+        height: 50px ;
+        border-radius: 50%;
+        position: absolute;
+        top: 96%;
+    }
+    .shape-4{
+        position: absolute;
+        left: 81%;
+        bottom: 2%;
     }
 </style>

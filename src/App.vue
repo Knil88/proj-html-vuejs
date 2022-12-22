@@ -1,4 +1,5 @@
 <script >
+// Importazione component
 import AppHeader from './components/AppHeader.vue';
 import AppSection from './components/AppSection.vue';
 import AppSection_2 from './components/AppSection_2.vue';
@@ -30,20 +31,21 @@ export default{
   <AppHeader/>
   
   <main>
+
+    <!-- questo div cambia il colore di sfondo che diventerà bianco dopo l'onda -->
+
    <div class="big-container">
     <AppSection/>
     <AppSection_2/>
     <AppSection_3/>
     <AppSection_4/>
    </div>
-     
-   
-    <AppSection_5/>
-    <AppSection_6/>
+     <AppSection_5/>
+    <div class="big-container">
+      <AppSection_6/>
+    </div>
     <AppSection_7/>
    
-    
-
   </main>
   
   <AppFooter/>
