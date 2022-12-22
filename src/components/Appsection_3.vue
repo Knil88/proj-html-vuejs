@@ -89,6 +89,7 @@
   #full-image{
     z-index: 1;
     position: relative;
+   box-shadow:3px 47px 46px -10px rgba(8,66,125,0.85) ; 
   }
   .p-circle-2{
     bottom: 91%;
