@@ -14,10 +14,16 @@
           
             <div>
                 <div class="img-container">
+                   <img class="cloud" src="../assets/svg-0.svg" alt="">
+                </div>
+                <div class="img-container">
+                    <img src="..//assets/immagini/maxcoach-shape-05-150x150.png" alt="" id="shape-position">
+                </div>
+                <div class="img-container">
                     <img src="../assets/immagini/icon-youtube-play.png" alt="" id="play-position">
                 </div>
                 <div class="img-container">
-                    <img src="../assets/immagini/stock-full-hd-11-670x450.jpg" alt="">
+                    <img src="../assets/immagini/stock-full-hd-11-670x450.jpg" alt="" id="full-image">
                 </div>
             </div>
         </div>
@@ -53,12 +59,24 @@
 @use"./styles/partial/variables.scss" as*;
 #play-position{
     position: absolute;
+    z-index: 1000;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     cursor: pointer;
 }
   #link{
-    color: black;
+    color:#171520;
+    margin: 0;
+  }
+  #shape-position{
+    position: absolute;
+    bottom: 44%;
+    right: 85%;
+  }
+
+  #full-image{
+    z-index: 1;
+    position: relative;
   }
 </style>

@@ -98,14 +98,14 @@
                 margin: auto;
             
                 p{
-                    color: #31ad96;
+                    color: #1fad95;
                     font-size: 13px;
                 }
             
                 h5{
                     color: #bbc0c4;
                     span{
-                        color: #939699;
+                        color: #1fad95;
                     }
                 }
                 
