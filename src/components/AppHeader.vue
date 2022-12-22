@@ -16,7 +16,7 @@ export default{
   <header>
     <nav>
       <div>
-       <ul>
+       <ul id="ul">
         <li v-for="link in links">
           <a href="#">
            {{ link}}&#8964;
@@ -112,7 +112,7 @@ export default{
     margin: 0px 14px;
     font-size: 13px;
   }
-  ul{
+  #ul{
     display: flex;
   }
   #logo{
