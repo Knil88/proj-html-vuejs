@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+.white{
+    background-color: #ffff;
+}
+
 body{
     font-family: alata;
     background-color: #f6f6f6;
@@ -21,9 +25,10 @@ li{
 }
 header{
     margin-bottom: 150px;
+    background-color: white;
 }
 section{
-    margin: 100px auto;
+    padding: 20px 0px;
    
 }
 main{

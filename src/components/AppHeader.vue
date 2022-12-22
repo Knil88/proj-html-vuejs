@@ -71,6 +71,7 @@ export default{
   #jumbo{
    position: relative;
    width: 100%;
+   background-color: #f6f6f6;;
     img{
       max-width: 100%;
       padding: 10px 0px;

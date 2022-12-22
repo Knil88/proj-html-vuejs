@@ -35,7 +35,7 @@
         text-align: center;
         width: 50%;
         margin: auto;
-        margin-bottom: 30px;
+        
     }
     .card{
         margin: 0px 10px;

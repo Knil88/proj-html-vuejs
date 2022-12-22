@@ -92,8 +92,19 @@
            
             
         </div>
+        <p id="p-position">
+           <strong>
+            Control your personal preference settings to get notified about <br> appropriate courses.
+           </strong> <span>
+                <a href="#"><strong>
+                    View all courses &RightArrowBar;
+                </strong></a>
+            </span>
+        </p>
        </div>
+      
  </section>
+ <img id="wawe" src="../assets/svg-1.svg" alt="">
 </template>
 
 <style lang="scss">
@@ -155,5 +166,17 @@
     #big{
         font-size: 15px;
         color: black;
+    }
+    #wawe{
+        filter: invert(1);
+        width: 100%;
+        max-height: 57px;
+        position: relative;
+        top: 4px;
+    }
+    #p-position{
+        margin-top: 5%;
+        color:#696969;
+        font-size: 13px;
     }
 </style>

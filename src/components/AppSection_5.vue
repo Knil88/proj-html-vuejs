@@ -1,0 +1,18 @@
+<script >
+
+
+
+
+
+</script>
+
+<template>
+    <section class="white">
+
+    </section>
+</template>
+
+<style lang="scss">
+    @use"./styles/general.scss" as*;
+    @use"./styles/partial/variables.scss" as*;
+</style>
